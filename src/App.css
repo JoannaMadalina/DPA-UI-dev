@@ -1,0 +1,282 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Applying font-family to headings and paragraphs */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Archivo Narrow", sans-serif !important;
+}
+
+/* Header styles */
+header {
+    position: relative;
+}
+
+/* Styles for the countries card */
+.countries-card {
+    position: absolute;
+    right: 3rem; /* Positioning from the right edge of the parent container */
+    top: 5.88rem; /* Positioning from the top edge of the parent container */
+    z-index: 100; /* Stacking order */
+    width: 27%; /* Width of the card */
+    box-shadow: 10px 8px 0px 0px #00000040; /* Box shadow */
+}
+
+.countries-card input {
+    padding: 4px 24px 4px 24px; /* Padding */
+    background: #DEDEDE; /* Background color */
+    border-radius: 14px; /* Border radius for rounded corners */
+    border: none; /* No border */
+    outline: none; /* No outline */
+}
+
+/* Navbar styles */
+.navbar {
+    border-bottom: 2px solid #000000; /* Border bottom */
+}
+
+.navbar .right-buttons button {
+    color: #FFFF; /* Text color */
+    padding: 11px 16px 11px 16px; /* Padding */
+    background-color: #2D3540; /* Background color */
+    border: 1px solid #2D3540; /* Border */
+    box-shadow: -6px -6px 5px 0px #FFFFFFB2; /* Box shadow */
+    box-shadow: 2px 2px 5px 0px #0000004D; /* Box shadow */
+}
+
+/* Home Banner styles */
+.home-banner {
+    min-height: 400px; /* Minimum height */
+}
+
+.home-banner .inner-content {
+    height: 259px; /* Height */
+    width: 100%; /* Width */
+    background: #2D3540; /* Background color */
+}
+
+.home-banner .inner-content .col-md-3,
+.home-banner .inner-content .row {
+    height: 100%; /* Height */
+    position: relative; /* Relative positioning */
+}
+
+.home-banner .inner-content .col-md-3 .left-content {
+    position: absolute; /* Absolute positioning */
+    left: 0; /* Positioning from the left edge of the parent container */
+    bottom: .55rem; /* Positioning from the bottom edge of the parent container */
+}
+
+.home-banner .inner-content .col-md-3 .left-content p {
+    font-weight: 400; /* Font weight */
+    font-size: 25px; /* Font size */
+    line-height: 1px; /* Line height */
+    color: #ECEDEE; /* Text color */
+}
+
+.home-banner .inner-content .col-md-3 .left-content h2 {
+    font-size: 53px; /* Font size */
+    font-weight: 700; /* Font weight */
+    color: #ECEDEE; /* Text color */
+}
+
+.home-banner .inner-content .col-md-3 .right-content {
+    position: absolute; /* Absolute positioning */
+    right: 0; /* Positioning from the right edge of the parent container */
+    top: .55rem; /* Positioning from the top edge of the parent container */
+    color: #FFFF; /* Text color */
+}
+
+.home-banner .inner-content .col-md-3 .right-content p {
+    font-weight: 400; /* Font weight */
+    font-size: 25px; /* Font size */
+    color: #ECEDEE; /* Text color */
+    line-height: 1px; /* Line height */
+}
+
+.home-banner .inner-content .col-md-3 .right-content h2 {
+    font-size: 53px; /* Font size */
+    font-weight: 700; /* Font weight */
+    color: #ECEDEE; /* Text color */
+}
+
+.home-banner .inner-content .slider-center {
+    height: 400px; /* Height */
+    position: relative; /* Relative positioning */
+    top: -4.44rem; /* Positioning from the top edge of the parent container */
+    box-shadow: -10px 11px 0px 0px #00000040; /* Box shadow */
+}
+
+.home-banner .inner-content .carousel-item {
+    height: 400px; /* Height */
+    position: relative; /* Relative positioning */
+}
+
+.home-banner .inner-content .carousel-item .top-info {
+    margin-top: 4rem; /* Margin top */
+    margin-left: 3rem; /* Margin left */
+}
+
+.home-banner .inner-content .carousel-item .top-info p {
+    font-weight: 400; /* Font weight */
+    font-size: 25px; /* Font size */
+    color: #FFF; /* Text color */
+    line-height: 1px; /* Line height */
+}
+
+.home-banner .inner-content .carousel-item .top-info h2 {
+    font-size: 53px; /* Font size */
+    font-weight: 700; /* Font weight */
+    color: #FFF; /* Text color */
+}
+
+.home-banner .inner-content .carousel-item .right-bottom-info {
+    position: absolute; /* Absolute positioning */
+    right: 1.33rem; /* Positioning from the right edge of the parent container */
+    bottom: .33rem; /* Positioning from the bottom edge of the parent container */
+}
+
+.home-banner .inner-content .carousel-item .right-bottom-info h1 {
+    color: #FFF; /* Text color */
+    font-weight: 400; /* Font weight */
+    font-size: 149px; /* Font size */
+}
+
+.carousel-item.f-item {
+    background: #3498DB !important; /* Background color */
+}
+
+/* Calendar */
+.date-picker {
+    width: 37px; /* Width */
+}
+
+/* Horizontal List*/
+
+.item-slider-container {
+  background-color: var(--sp
+  /*#203354*/
+-background-color);
+  box-shadow: 0px 0px 16px -8px rgb(0 0 0 / 68%);
+}
+
+.item-slider-container .item-title {
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding-bottom: 15px;
+}
+
+.item-slider {
+  padding: 0px 5px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.item-slider .item-container {
+  display: inline-flex;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  padding: 0px 5px;
+}
+
+.item-slider .item-container span {
+  margin: 0px 10px;
+}
+
+.item-slider .item-container::-webkit-scrollbar {
+  display: none;
+}
+
+.item-slider .left-arrow-left {
+  position: absolute;
+  left: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.item-slider .right-arrow-right {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.right-arrow-right>svg,
+.left-arrow-left>svg {
+  color: #c3c3c1;
+}
+
+.right-arrow-right svg:hover,
+.left-arrow-left svg:hover {
+  color: #5b5b5b;
+  border-radius: 50%;
+}
+
+/* Card item styles */
+.item-container .cardContent {
+  display: flex;
+  flex-direction: column; /* Make content vertical */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.item-container .card {
+  border: unset;
+  box-shadow: 0px 0px 16px -8px rgb(0 0 0 / 68%);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+}
+
+.item-container .card img {
+  width: 100%; /* Make the image fill the container */
+  max-width: 200px; /* Set maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.item-container .card-title {
+  font-size: 14px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column; /* Make content vertical */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.item-container .card span {
+  padding: 0;
+  margin: 0;
+}
+
+.item-container .cardWeight {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column; /* Make content vertical */
+  align-items: center; /* Center content vertically */
+}
+
+.item-container .card .mrp-weight {
+  font-size: 14px;
+  font-weight: normal;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.item-container .card .save-weight {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--sp-exam-button-color);
+}
+
+.item-container .card .actual-weight {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
